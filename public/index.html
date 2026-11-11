@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es-UY">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Kit Consultorio Lúdico · Recursos terapéuticos infantiles | Uruguay
+    </title>
+    <meta
+      name="description"
+      content="Conocé la propuesta del Kit Consultorio Lúdico: recursos para acompañar sesiones infantiles, biblioteca por necesidades clínicas y planes en pesos uruguayos."
+    />
+    <meta name="theme-color" content="#2a9d8f" />
+    <meta property="og:title" content="Kit Consultorio Lúdico · Uruguay" />
+    <meta
+      property="og:description"
+      content="Jugar, conectar y acompañar. Conocé la propuesta de biblioteca de recursos terapéuticos infantiles."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_UY" />
+    <meta property="og:image" content="/kit.svg" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Saltar al contenido</a>
+    <div class="offer-bar">
+      KIT DIGITAL · VERSIÓN URUGUAY · PROPUESTA EN PREPARACIÓN
+    </div>
+    <header class="utility">
+      <a href="/" class="wordmark"
+        ><img src="/favicon.svg" width="24" height="24" alt="" /> Consultorio
+        Lúdico</a
+      >
+      <div class="utility-actions">
+        <label class="country-label"
+          ><span class="sr-only">País y moneda</span
+          ><select id="country" aria-label="País y moneda"></select></label
+        ><a href="/biblioteca"
+          >Mi biblioteca <span aria-hidden="true">↗</span></a
+        >
+      </div>
+    </header>
+    <main id="main"><div class="loading">Preparando el consultorio…</div></main>
+    <footer id="footer"></footer>
+    <dialog id="modal" aria-labelledby="modal-title">
+      <button class="close" data-close aria-label="Cerrar ventana">×</button>
+      <div id="modal-body"></div>
+    </dialog>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <noscript
+      >Necesitás activar JavaScript para usar la biblioteca y la conversión de
+      monedas. Los precios base son UYU 590 y UYU 790. La venta todavía no está
+      habilitada.</noscript
+    >
+  </body>
+</html>
